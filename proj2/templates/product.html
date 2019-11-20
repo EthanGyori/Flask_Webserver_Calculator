@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="static/style.css" type="text/css">
+<form action="/calc" method="POST">
+<div class="login">
+<div class="login-screen">
+<div class="app-title">
+	<h3 align=center><span style="color:#c6c5c5">The product of</span>
+			 <span>{{A}}</span>
+			 <span style="color:#c6c5c5">and</span>
+			 <span>{{B}}</span> 
+			<span style="color:#c6c5c5">is</span>
+			<span>{{C}}</span></h3>
+</div>
+</form>
+<form action="/next" method="POST">
+<input type="submit" value="Calculate another set" class="btn btn-primary btn-large btn-block">
+</form>
+
+<div></div>
+
+<form action="/logout" method="POST">
+<input type="submit" value="Log Out" class="btn btn-primary btn-large btn-block">
+</form>
